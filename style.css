@@ -1,0 +1,14 @@
+/* v1 */
+/*
+.active {
+	visibility: visible;
+}
+.spoiler {
+    visibility: hidden;
+} 
+*/
+
+/* v2 */
+.spoiler:not(.active) {
+	display: none;
+}
