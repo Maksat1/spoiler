@@ -9,6 +9,9 @@
 */
 
 /* v2 */
-.spoiler:not(.active) {
+/* .spoiler:not(.active) {
+	display: none;
+} */
+.active {
 	display: none;
 }
